@@ -62,7 +62,7 @@
 {
     margin:auto;
     width: 100%;
-    background: #fff111;
+    background: #fff;
     height: 500px;
 }
 .firstimage
@@ -115,6 +115,31 @@ margin-right: auto
     padding: 3px;
     color: #000;
 }
+.tirtleimage
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto 
+}
+.part3 > p
+{
+    text-align: center;
+    color: #000;
+}
+.linkrun
+{
+    max-width: inherit;
+    text-align: center;
+}
+.linkrun > a 
+{
+    
+    display: inline-block;
+    padding: 3px;
+    color: #000;
+}
 
 .sobremim 
 {
@@ -123,6 +148,11 @@ margin-right: auto
     width: 100%;
     background: #808080;
     height: 500px;
+}
+.titlesm
+{
+	text-align: center;
+    color: #fff;
 }
 .me
 {
@@ -146,7 +176,7 @@ margin-right: auto
 }
 .box > p
 {
-    margin-top: 185px;
+	margin-top: 160px;
     font-size: 20px;
     color: #fff;
     text-align: center;
