@@ -1,73 +1,201 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Isaque Araujo</title>
-        <meta name="description" content="An interactive getting started guide for Brackets.">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="bootstrap-social.css">
-    </head>
-    <body class="body">
-        <div class="caixamenu">
-                <nav class="menu">
-                <a href="index.html#footer1">Portfólio</a>
-                <a href="index.html#footer2">Sobre Mim</a>
-                <a href="index.html#footer3">Contatos</a>
-                </nav>
-        </div>
-        <div class="conteudo">
-            <a name="footer1"></a>
-            <h1>Portfólio</h1>
-            <div class="portfolio">
-                <div class="part1">
-                    <img class="firstimage" src="screenshots/capacerta.png" height="368" width="1000">
-                    <p>Organiza Enem é um aplicativo que está sendo desenvolvido para o sistema operacional android. O aplicativo busca ajudar quem sofre de ansiedade e que quer estudar para o ENEM. </p>
-                    <nav class="linkon">
-                        <p></p>
-                           <a href="https://www.facebook.com/OrganizaEnem/?fref=ts" target="_blank">Saiba Mais</a>
-                    </nav>
-                 </div>
-                <div class="part2">
-                    <img class="secondimage" src="screenshots/eu.png" height="368" width="1000">
-                    <p>Eu, Vença seus medos é um jogo que foi desenvolvido para computador. O jogo trata dos medos de um escritor e da abstração no processo criativo. </p>
-                    <nav class="linkeu">
-                        <p></p>
-                           <a href="https://www.facebook.com/jogueEu/?fref=ts" target="_blank">Saiba Mais</a>
-                    </nav>
-                </div>
-                <div class="part3">
-				<img class="tirtleimage" src="screenshots/run.png" height="368" width="1000">
-                    <p>Run Jonas é um jogo programado e desenvolvido em construct 2. O jogo é infinity runner onde o player deve desviar das drogas </p>
-                    <nav class="linkrun">
-                        <p></p>
-                           <a href="" target="_blank">Saiba Mais</a>
-                    </nav>
-                </div>
-            </div>
-            <a name="footer2"></a>
-            <div class="sobremim">
-				
-                <div class="imgimg">
-				
-                    <img class="me" src="screenshots/me.jpg" alt="" height="350" width="350">
-                </div>
-                <div class="box">
-				<h1 class="titlesm">Sobre mim</h1>
-                    <p>Olá, eu sou Isaque de Araújo, tenho 17 anos. Estudo no CEJLL(NAVE), e faço o curso de programação. Com meu conhecimento fiz as coisas que podem ser vistas acima, além de muitas outras. Estou sempre buscando aprender coisas novas, afinal é preciso sempre inovar.</p>
-                </div>
-            </div>
-            <div class="contato">
-                <a name="footer3"></a>
-            <h1 class="contatotitle">Contatos</h1>
-                <h2>Entre em contato em: isaquearaujo22@gmail.com</h2>
-                <nav class="redessociais">
-                <a href="https://github.com/Isaquinn" target="_blank"><img src="screenshots/GitHub-Mark-120px-plus.png" width="50" height="50" border="0"/></a>
-                    <a href="https://www.facebook.com/isaque.araujo.5492" target="_blank"><img src="screenshots/face.png" width="50" height="50" border="0"/></a>         <a href="https://plus.google.com/u/0/118215839541222073770" target="_blank"><img src="screenshots/google.png" width="50" height="50" border="0"/></a>
-                    <a href="https://github.com/Isaquinn" target="_blank"><img src="screenshots/twitter.png" width="50" height="50" border="0"/></a>
+	<head>
+		<title>Isaque de Araújo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-                </nav>
-            </div>
-            </div>
-    </body>
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/me.jpg" alt="" /></span>
+							<h1 id="title">Isaque de Araújo</h1>
+							<p>Developer/Programmer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+                                <li><a href="assets/curriculum.pdf" target="_blank" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Curriculum</span></a></li>
+                                
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/IsaqueAraujo_" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/isaque.araujo.5492" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/Isaquinn" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+							
+				</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+                <!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<footer>
+								<a href="#portfolio" class="button scrolly">Portfolio</a>
+							</footer>
+                        </div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Projects I did and participated.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Organiza Enem</h3>
+                                            <p>
+Organiza Enem is an application aimed at improving the organization of ENEM and better control of user anxiety for the exam.</p>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/tumanja.png" alt="" /></a>
+										<header>
+											<h3>Tu, manja?</h3>
+                                              <p>
+
+A game intended to help elementary students II study mathematics.</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/eu.png" alt="" /></a>
+										<header>
+											<h3>Eu, Vença seus medos</h3>
+                                              <p>
+It is a platform game about the story of a writer going to his old school giving a lecture.</p>
+										</header>
+									</article>
+									
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/starpong.png" alt="" /></a>
+										<header>
+											<h3>Star Pong</h3>
+                                             <p>
+A space-themed Pong style game.</p>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/runjonas.png" alt="" /></a>
+										<header>
+											<h3>Run Jonas</h3>
+                                                                                   <p>
+
+Run Jonas is a side scroll runner about a young man from the countryside who has moved to big city and needs to avoid contact with drugs and save his friends from this evil.</p>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/dowload.png" alt="" /></a>
+
+							<p>
+Hello, my name is Isaque, I'm 17 years old. I'm from Rio, I live in the city of Rio de Janeiro, Brazil. I love programming and playing. I know some programming languages ​​and use them to create applications and games.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Get in touch with: isaquearaujo22@gmail.com</p>
+
+							
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
